@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,900&display=swap');
+body{
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bag-header.png);
+    background-size: cover;
+    position: relative;
+}
+
+
+ #principal .title h3{
+     font-size: 60px;
+     margin-top: 70px;
+     margin-left: 60px;
+     color: #ffa940;
+     font-weight: 800;
+     
+ }
+
+ #principal .title h2{
+     color: white;
+     font-size: 30px;
+     margin-left: 45px;
+     
+ }
+
+ #principal .title p{
+     font-size: 23px;
+     color: white;
+     margin-left: 80px;
+     margin-right: 80px;
+     font-weight: 500;
+
+ }
+
+
+ #principal .title_2 h2{
+     color: #ffa940;
+     font-size: 45px;
+     padding-top: 25px;
+     font-weight: bold;
+ }
+
+ #principal .title_2 p{
+     color: white;
+     font-size: 20px;
+     text-align: center;
+     padding-left: 20px;
+     font-weight: normal;
+ }
+
+ #principal .title_3{
+     padding-top: 15px;
+     text-align: center;
+ }
+
+ #principal .title_3 button{
+     background: #0969a2;
+     border-radius: 30px;
+ }
+
+ 
+#principal #menu {
+    margin-top: 50px;
+}
+
+#principal .foto{
+position: absolute;
+top: -03px;
+right: -87px;
+}
+
+#principal .foto img{
+    width: 450px;
+}
+
+#principal #menu_p{
+    margin-top: 60px;
+}
+
+#principal #menu_p li{
+    padding: 0 15px;
+}
+
+#principal #menu_p li a{
+    background: #0969a2;
+    transition: .4s;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#principal #menu_p li a:hover{
+    background: #ffa940;
+}
+
+
+#block1{
+    background: url(../img/bag-education-02.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+#block1 {
+    margin-top: 0px;   
+}
+
+#block1 .card-services {
+    background-color: white;
+    margin-top: 190px;
+    max-width: 300px;
+    padding: 0px 20px 10px 20px;
+    box-shadow: 0 0 10px rgb(143, 143, 199);
+}
+
+#block1 #education .b-cen img{
+    width: 100px;    
+}
+
+#block1 #education .b-cen h3{
+    color: #0969a2;
+    font-weight: inherit;
+}
+
+#block1 #education .b-cen h3:hover{
+    font-weight: bolder;
+}
+
+#block1 #education .b-cen h4:hover{
+    color: #ffa940;
+}
+
+
+#block1 #education .b-cen h4{
+color: #0969a2;
+font-weight: bold;
+}
+
+#block1 #education .b-cen p{
+    font-size: 20px;
+    margin: 0px 20px 10px 20px;
+    color: black;
+}
+
+#block2{
+    background: url(../img/bag-habilidades-02.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+#block2 .hab{
+    margin-top: 45px;
+}
+
+#block2 .hab img{
+    width: 150px;
+}
+
+#block2 .hab h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#block2 .hab h2:hover{
+    color: #ffa940;
+    -webkit-box-reflect: below -25px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+}
+
+#block2 .hab h3{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+}
+
+#block2 .hob{
+    margin-top: 45px;
+}
+
+#block2 .hob img{
+    width: 170px;
+}
+
+#block2 .hob h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#block2 .hob h2:hover{
+    color: #ffa940;
+    -webkit-box-reflect: below -25px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+}
+
+#block2 .hob h3{
+color: white;
+font-weight: 500;
+text-align: center;
+font-size: 40px;
+}
+
+#block3{
+    background: url(../img/bag-portafolio-02.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+#block3 #portafolio .brr img{
+    width: 100%;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 0%;
+}
+
+#block3 #portafolio .pcn{
+    margin-top: 60px;
+}
+
+#block3 #portafolio .pcn h2{
+    color: #0969a2;
+    font-weight: 900;
+    font-size: 70px;
+    -webkit-text-stroke: 3px #ffa940;
+}
+
+#block3 #portafolio #menu_pp{
+margin-top: 25px;
+}
+
+#block3 #portafolio #menu_pp li{
+    padding: 0 20px
+}
+
+
+#block3 #portafolio #menu_pp li a{
+    background: #0969a2;
+    transition: .4s;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-weight: 400;
+}
+
+#block3 #portafolio #menu_pp li a:hover{
+    background: #ffa940;
+}
+
+#block3 #portafolio .port img{
+    width: 200px;
+}
+
+#block3 #portafolio .p-image img{
+    width: 220px;
+    margin: 0px 40px 10px 40px;
+
+}
+
+#block3 #portafolio .p-image img:hover{
+    border-radius: 50px;
+}
